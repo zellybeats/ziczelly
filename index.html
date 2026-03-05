@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Zic Zelly (Zelly Beats) — Premium Hip-Hop, Trap, Drill & Afro beats. Explore beats, collaborations and contact." />
+  <title>Zelly Beats</title>
+
+  <link rel="preconnect" href="https://img.youtube.com" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Zelly Beats</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav class="menu" aria-label="Primary">
+        <ul id="menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#beats">Beats</a></li>
+          <li><a href="#collaborations">Collaborations</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a class="pill" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="kicker">Rapper • Producer • Beatmaker • Engineer</p>
+        <h1>Zic Zelly Music</h1>
+        <p class="oneline">
+          Premium Hip-Hop, Trap, Drill & Afro beats — crafted with passion and precision.
+        </p>
+
+        <div class="cta">
+          <a class="button primary" href="#beats">Explore Beats</a>
+          <a class="button ghost" href="#contact">Work With Me</a>
+        </div>
+
+        <div class="stats" aria-label="Highlights">
+          <div class="stat">
+            <div class="stat-num">30+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Clients</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">8+</div>
+            <div class="stat-label">Years</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Featured audio preview">
+        <div class="hero-card-top">
+          <div>
+            <p class="muted small">Featured Beat</p>
+            <h2 class="h3">Hard Trap</h2>
+            <p class="muted">Trap • 120 BPM • D Min</p>
+          </div>
+          <span class="badge">New</span>
+        </div>
+
+        <audio controls preload="none" src="Beats/Alone - Trap beat - 120 BPM - D Min - MAS 9.mp3"></audio>
+
+        <div class="hero-card-actions">
+          <a class="button small" href="#beats">Browse Library</a>
+          <a class="button small ghost" href="#contact">Get License</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Beats -->
+  <section id="beats" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Beats</h2>
+          <p class="section-intro">Tap play. If you like a vibe, message me for licensing or custom production.</p>
+        </div>
+        <div class="filters" aria-label="Beat filters">
+          <button class="chip active" type="button" data-filter="all">All</button>
+          <button class="chip" type="button" data-filter="trap">Trap</button>
+          <button class="chip" type="button" data-filter="drill">Drill</button>
+          <button class="chip" type="button" data-filter="afro">Afro</button>
+        </div>
+      </div>
+
+      <div class="beats-grid" id="beatsGrid">
+        <!-- Beat 1 -->
+        <article class="beat-card" data-genre="trap">
+          <img class="beat-cover" src="Covers/Cover 1.png" alt="Hard Trap cover" loading="lazy" />
+          <div class="beat-meta">
+            <div class="beat-title-row">
+              <h3>Hard Trap</h3>
+              <span class="tag">Trap</span>
+            </div>
+            <p class="muted">120 BPM • D Min</p>
+          </div>
+          <audio controls preload="none" src="Beats/Alone - Trap beat - 120 BPM - D Min - MAS 9.mp3"></audio>
+        </article>
+
+        <!-- Beat 2 -->
+        <article class="beat-card" data-genre="trap">
+          <img class="beat-cover" src="Covers/Cover 2.jpg" alt="Melodic Trap cover" loading="lazy" />
+          <div class="beat-meta">
+            <div class="beat-title-row">
+              <h3>Melodic Trap</h3>
+              <span class="tag">Trap</span>
+            </div>
+            <p class="muted">125 BPM • B Min</p>
+          </div>
+          <audio controls preload="none" src="Beats/Aquamarine - Melodic Trap - 125 BPM - B Min - 09.08.23 ( CYM Beat Contest ) MAS 6.mp3"></audio>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collaborations -->
+  <section id="collaborations" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Collaborations</h2>
+          <p class="section-intro">Music videos I’ve produced with talented artists.</p>
+        </div>
+        <a class="link" href="#contact">Want to collaborate? →</a>
+      </div>
+
+      <div class="collab-grid">
+        <article class="collab-card">
+          <a class="yt-thumb" href="https://www.youtube.com/watch?v=S3kXrQdselk" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/S3kXrQdselk/hqdefault.jpg" alt="Deewana – D Brave ft. Zic Zelly" loading="lazy" />
+            <span class="yt-play" aria-hidden="true">▶</span>
+          </a>
+          <h3>Deewana</h3>
+          <p class="muted">D Brave ft. Zic Zelly</p>
+        </article>
+
+        <article class="collab-card">
+          <a class="yt-thumb" href="https://www.youtube.com/watch?v=A-pgIJdxb1w" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/A-pgIJdxb1w/hqdefault.jpg" alt="Jalwa – D Brave ft. Zic Zelly" loading="lazy" />
+            <span class="yt-play" aria-hidden="true">▶</span>
+          </a>
+          <h3>Jalwa</h3>
+          <p class="muted">D Brave ft. Zic Zelly</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container about">
+      <div class="about-card">
+        <h2>About</h2>
+        <p class="section-intro">
+          I’m <strong>Zic Zelly</strong> (Zelly Beats) — producing for 8+ years. I create clean, hard-hitting beats with modern sound design.
+        </p>
+
+        <div class="about-pills">
+          <span class="pill2">Hip-Hop</span>
+          <span class="pill2">Trap</span>
+          <span class="pill2">Drill</span>
+          <span class="pill2">Afro</span>
+          <span class="pill2">Mixing</span>
+        </div>
+
+        <div class="about-cta">
+          <a class="button primary" href="#contact">Hire Me</a>
+          <a class="button ghost" href="#beats">Listen More</a>
+        </div>
+      </div>
+
+      <div class="about-note">
+        <div class="note">
+          <h3>What I can do for you</h3>
+          <ul>
+            <li>Custom beats (exclusive/non-exclusive)</li>
+            <li>Mixing & basic mastering</li>
+            <li>Production for singles & reels</li>
+          </ul>
+        </div>
+
+        <div class="note">
+          <h3>Fast process</h3>
+          <ul>
+            <li>Share reference + vibe</li>
+            <li>I send 2–3 drafts</li>
+            <li>Final delivery + stems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Contact</h2>
+          <p class="section-intro">Tell me what you need. I’ll reply with price + timeline.</p>
+        </div>
+        <div class="contact-links">
+          <!-- Replace with your real links -->
+          <a class="link" href="#" aria-label="Instagram">Instagram</a>
+          <a class="link" href="#" aria-label="YouTube">YouTube</a>
+          <a class="link" href="#" aria-label="SoundCloud">SoundCloud</a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form" autocomplete="on" novalidate>
+        <div class="row-2">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" class="contact-input" type="text" name="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" class="contact-input" type="email" name="email" placeholder="E-mail address" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" class="contact-input" type="text" name="subject" placeholder="Licensing / Custom beat / Mixing" required />
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" class="contact-input contact-textarea" name="message" rows="6" placeholder="Explain the vibe + deadline + budget (if any)" required></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button class="send-btn" type="submit">Send Message</button>
+          <p class="muted small" id="formStatus" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> Zelly Beats</span>
+      <a class="link" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
